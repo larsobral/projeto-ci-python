@@ -28,7 +28,7 @@ def pesquisar_termo(palavra):
     return "\n".join(definicoes)
 
 
-palavra = input("Digite o termo para obter a definição ou pesquisar: ")
-
-resultados_pesquisa = pesquisar_termo(palavra)
-print(resultados_pesquisa)
+# palavra = input("Digite o termo para obter a definição ou pesquisar: ")
+#
+# resultados_pesquisa = pesquisar_termo(palavra)
+# print(resultados_pesquisa)
