@@ -1,4 +1,4 @@
-name: CI
+name: projeto-ci-python
 
 on:
   pull_request:
@@ -19,4 +19,5 @@ jobs:
           python-version: 3.8
 
       - name: Executar testes
-        run: python -m unittest discover -v
+        run: |
+          python -m unittest discover -s ./tests -p 'test_*.py'

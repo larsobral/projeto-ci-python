@@ -28,24 +28,7 @@ def pesquisar_termo(palavra):
     return "\n".join(definicoes)
 
 
-palavra = input("Digite o termo para obter a definição ou pesquisar: ")
-
-resultados_pesquisa = pesquisar_termo(palavra)
-print(resultados_pesquisa)
-
-# def pesquisar_termo(palavra):
-#     palavra_pesquisa_lc = palavra.lower()
-#     palavras_coincidentes = []
+# palavra = input("Digite o termo para obter a definição ou pesquisar: ")
 #
-#     for chave in termos_tecnologia.keys():
-#         if palavra_pesquisa_lc in chave.lower():
-#             palavras_coincidentes.append(chave)
-#
-#     if not palavras_coincidentes:
-#         return "Nenhum termo correspondente encontrado."
-#
-#     definicoes = []
-#     for chave in palavras_coincidentes:
-#         definicoes.append(f"{chave}: {termos_tecnologia[chave]}")
-#
-#     return "\n".join(definicoes)
+# resultados_pesquisa = pesquisar_termo(palavra)
+# print(resultados_pesquisa)
