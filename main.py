@@ -26,9 +26,3 @@ def pesquisar_termo(palavra):
         definicoes.append(f"{chave}: {definicao}")
 
     return "\n".join(definicoes)
-
-
-# palavra = input("Digite o termo para obter a definição ou pesquisar: ")
-#
-# resultados_pesquisa = pesquisar_termo(palavra)
-# print(resultados_pesquisa)
