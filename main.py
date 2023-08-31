@@ -6,7 +6,7 @@ termos_tecnologia = {
 
 
 def obter_definicao(palavra):
-    return termos_tecnologia.get(palavra, "Termo não encontrado no dicionário.")
+    return termos_tecnologia.get(palavra, "Palavra não encontrado no dicionário.")
 
 
 def pesquisar_termo(palavra):
@@ -18,7 +18,7 @@ def pesquisar_termo(palavra):
             palavras_coincidentes.append(chave)
 
     if not palavras_coincidentes:
-        return "Nenhum termo correspondente encontrado."
+        return "Nenhuma palavra correspondente encontrado."
 
     definicoes = []
     for chave in palavras_coincidentes:
