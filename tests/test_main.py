@@ -10,7 +10,7 @@ class TestDicionarioTecnologia(unittest.TestCase):
 
     def test_obter_definicao_inexistente(self):
         definicao = obter_definicao("XYZ")
-        self.assertEqual(definicao, "Termo não encontrado no dicionário.")
+        self.assertEqual(definicao, "Palavra não encontrado no dicionário.")
 
     def test_pesquisar_termo(self):
         resultados = pesquisar_termo("API")
